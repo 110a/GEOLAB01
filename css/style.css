@@ -1,6 +1,6 @@
 .service {
   height: 250px;
-  background: yellow;
+  background: #ededed;
   border: 1px solid black;
 }
 
@@ -9,4 +9,20 @@ nav {
 }
 body {
   font-family: 'Roboto Condensed', sans-serif;
+}
+/* img {
+  width: 100%;
+} */
+.image-container {
+  width: 100%;
+  background-image: url('../img/banner.jpg');
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.service .rounded-circle {
+  width: 80px;
+  padding: 15px;
+
 }

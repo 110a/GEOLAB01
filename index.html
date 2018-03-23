@@ -24,6 +24,14 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=442247912491918&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <header class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">MY LOGO</a>
@@ -89,6 +97,7 @@
     </div>
 
   </section>
+  <div class="fb-like" data-href="https://110a.github.io/GEOLAB01/" data-layout="button" data-action="recommend" data-size="small" data-show-faces="true" data-share="true"></div>
 
 
 </body>
